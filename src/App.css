@@ -1,38 +1,97 @@
-.App {
+@font-face {
+  font-family: Font1;
+  src: url(MULI-BLACK\ \(1\).TTF);
+}
+
+@font-face {
+  font-family: Font2;
+  src: url(MULI-BOLD.TTF);
+}
+
+@font-face {
+  font-family: Font3;
+  src: url(MULI-SEMIBOLD.TTF);
+}
+
+@font-face {
+  font-family: Font4;
+  src: url(MULI-EXTRALIGHT.TTF);
+}
+
+body{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title{
+  font-size: 48px;
+  line-height: 10px;
+  padding-top: 50px;
+  font-family: Font1;
+  color: rgba(72, 140, 143, 1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Subtitle{
+  font-size: 22px;
+  font-family: Font4;
+  color: rgba(72, 140, 143, 1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.PlanContainerFlexbox{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.PlanContainer{
+  height: 705px;
+  width: 430px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 20px;
+  box-shadow: 1px 1px 1px 1px #e0e0e0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PlanContainerPart1{
+  height: 46%;
+  background-color: rgba(230, 241, 237, 1);
+}
+
+/*Texts--------------*/
+
+.AdminsDoctors{
+  font-size: 22px;
+  font-family: Font3;
+  color: #488C8F;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.PlanPrice{
+  font-size: 35px;
+  font-family: Font2;
+  color: #488C8F;
+}
+
+.FeatureTypeText{
+  font-size: 22px;
+  font-family: Font2;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.FeatureText{
+  font-size: 22px;
+  font-family: Font4;
+  color: #000000;
+}
+
+button{
+  background-color: #4DA9BB;
+  border-radius: 4px;
+  font-family: Font2;
+  font-size: 22px;
+  color: #FFFFFF;
+  border-style: none;
+  padding: 16px 25px;
+  cursor: pointer;
 }
