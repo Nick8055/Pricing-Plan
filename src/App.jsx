@@ -12,7 +12,7 @@ const Plan = ({stylingType, no_of_admins, no_of_doctors, plan_price, feature_typ
         <button className={stylingType ? 'ButtonStyle' : 'ButtonStyleAlternate'}>Sign Up Now</button>
       </div>
       <div className='PlanContainerPart2'>
-        <h1 className={stylingType ? 'FeatureText' : 'FeatureTextAlternate'}>{feature_type}</h1>
+        <h1 className={stylingType ? 'FeatureTypeText' : 'FeatureTypeTextAlternate'}>{feature_type}</h1>
         <h1 className={stylingType ? 'FeatureText' : 'FeatureTextAlternate'}>{feature1}</h1>
         <h1 className={stylingType ? 'FeatureText' : 'FeatureTextAlternate'}>{feature2}</h1>
         <h1 className={stylingType ? 'FeatureText' : 'FeatureTextAlternate'}>{feature3}</h1>
@@ -49,6 +49,26 @@ const App = () => {
         />
         <Plan 
         stylingType={1}
+        no_of_admins={3} 
+        no_of_doctors={2} 
+        plan_price={6000}
+        feature_type={"Basic"} 
+        feature1={"Client Management Toolkit"}
+        feature2={"SMS Service"}
+        feature3={"24/7 Customer Support"}
+        />
+                <Plan 
+        stylingType={1}
+        no_of_admins={3} 
+        no_of_doctors={2} 
+        plan_price={6000}
+        feature_type={"Basic"} 
+        feature1={"Client Management Toolkit"}
+        feature2={"SMS Service"}
+        feature3={"24/7 Customer Support"}
+        />
+                <Plan 
+        stylingType={0}
         no_of_admins={3} 
         no_of_doctors={2} 
         plan_price={6000}

@@ -67,6 +67,7 @@ body{
 .PlanContainerPart1Alternate{
   height: 46%;
   background-color: #4DA9BB;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }
 
 /*Texts--------------*/
@@ -84,7 +85,7 @@ body{
   font-family: Font3;
   color: #ffffff;
   margin-top: 0;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 .PlanPrice{
