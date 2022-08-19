@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className='Title'>Pricing</h1>
-      <h1 className='Subtitle'>Additional user- 1000 /Annum/User Additional clinic- 5000 /Annum/Additional Clinic </h1>
+      <h1 className='Subtitle'>Additional user - 1000 /Annum/User Additional clinic- 5000 /Annum/Additional Clinic </h1>
       <div className='PlanContainerFlexbox'>
         <Plan 
         no_of_admins={1} 
