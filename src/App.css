@@ -51,9 +51,22 @@ body{
   box-shadow: 1px 1px 1px 1px #e0e0e0;
 }
 
+.PlanContainerAlternate{
+  height: 740px;
+  width: 430px;
+  background-color: #4DA9BB;
+  margin: 20px;
+  box-shadow: 1px 1px 1px 1px #e0e0e0;
+}
+
 .PlanContainerPart1{
   height: 46%;
   background-color: rgba(230, 241, 237, 1);
+}
+
+.PlanContainerPart1Alternate{
+  height: 46%;
+  background-color: #4DA9BB;
 }
 
 /*Texts--------------*/
@@ -66,10 +79,24 @@ body{
   padding-top: 50px;
 }
 
+.AdminsDoctorsAlternate{
+  font-size: 22px;
+  font-family: Font3;
+  color: #ffffff;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
 .PlanPrice{
   font-size: 35px;
   font-family: Font2;
   color: #488C8F;
+}
+
+.PlanPriceAlternate{
+  font-size: 35px;
+  font-family: Font2;
+  color: #ffffff;
 }
 
 .FeatureTypeText{
@@ -79,20 +106,44 @@ body{
   padding-top: 40px;
 }
 
+.FeatureTypeTextAlternate{
+  font-size: 22px;
+  font-family: Font2;
+  color: #ffffff;
+  padding-top: 40px;
+}
+
 .FeatureText{
   font-size: 22px;
   font-family: Font4;
   color: #000000;
 }
 
+.FeatureTextAlternate{
+  font-size: 22px;
+  font-family: Font4;
+  color: #ffffff;
+}
+
 /*------------------------------*/
 
-button{
+.ButtonStyle{
   background-color: #4DA9BB;
   border-radius: 4px;
   font-family: Font2;
   font-size: 22px;
   color: #FFFFFF;
+  border-style: none;
+  padding: 16px 25px;
+  cursor: pointer;
+}
+
+.ButtonStyleAlternate{
+  background-color: #fafafa;
+  border-radius: 4px;
+  font-family: Font2;
+  font-size: 22px;
+  color: #4DA9BB;
   border-style: none;
   padding: 16px 25px;
   cursor: pointer;
