@@ -1,6 +1,9 @@
 import './App.css';
 
 const Plan = ({stylingType, no_of_admins, no_of_doctors, plan_price, feature_type, feature1, feature2, feature3}) => {
+
+  //For 'stylingType' parameter, use integer value 0 for highlighted styling or integer value 1 for normal styling
+
   return(
     <div className={stylingType ? 'PlanContainer' : 'PlanContainerAlternate'}>
       <div className= {stylingType ? 'PlanContainerPart1' : 'PlanContainerPart1Alternate'}>
