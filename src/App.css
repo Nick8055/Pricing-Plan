@@ -25,15 +25,17 @@ body{
 .Title{
   font-size: 48px;
   line-height: 10px;
-  padding-top: 50px;
-  font-family: Font1;
-  color: rgba(72, 140, 143, 1);
+  padding: 30px;
+  font-family: Font2;
+  color: #04ADBF;
 }
 
-.Subtitle{
-  font-size: 22px;
-  font-family: Font4;
-  color: rgba(72, 140, 143, 1);
+.Footer{
+  font-size: 36px;
+  font-family: Font3;
+  color: #04ADBF;
+  background-color: #E6F1ED;
+  padding: 30px;
 }
 
 .PlanContainerFlexbox{
@@ -49,6 +51,7 @@ body{
   background-color: rgba(255, 255, 255, 1);
   margin: 20px;
   box-shadow: 1px 1px 1px 1px #e0e0e0;
+  transition: all 0.5s ease;
 }
 
 .PlanContainerAlternate{
@@ -57,17 +60,20 @@ body{
   background-color: #4DA9BB;
   margin: 20px;
   box-shadow: 1px 1px 1px 1px #e0e0e0;
+  transition: all 0.5s ease;
 }
 
 .PlanContainerPart1{
   height: 46%;
   background-color: rgba(230, 241, 237, 1);
+  transition: all 0.5s ease;
 }
 
 .PlanContainerPart1Alternate{
   height: 46%;
   background-color: #4DA9BB;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  transition: all 0.5s ease;
 }
 
 /*Texts--------------*/
@@ -78,6 +84,7 @@ body{
   color: #488C8F;
   margin-top: 0;
   padding-top: 50px;
+  transition: all 0.5s ease;
 }
 
 .AdminsDoctorsAlternate{
@@ -86,18 +93,21 @@ body{
   color: #ffffff;
   margin-top: 0;
   padding-top: 75px;
+  transition: all 0.5s ease;
 }
 
 .PlanPrice{
   font-size: 35px;
   font-family: Font2;
   color: #488C8F;
+  transition: all 0.5s ease;
 }
 
 .PlanPriceAlternate{
   font-size: 35px;
   font-family: Font2;
   color: #ffffff;
+  transition: all 0.5s ease;
 }
 
 .FeatureTypeText{
@@ -105,6 +115,7 @@ body{
   font-family: Font2;
   color: #000000;
   padding-top: 40px;
+  transition: all 0.5s ease;
 }
 
 .FeatureTypeTextAlternate{
@@ -112,18 +123,21 @@ body{
   font-family: Font2;
   color: #ffffff;
   padding-top: 40px;
+  transition: all 0.5s ease;
 }
 
 .FeatureText{
   font-size: 22px;
   font-family: Font4;
   color: #000000;
+  transition: all 0.5s ease;
 }
 
 .FeatureTextAlternate{
   font-size: 22px;
   font-family: Font4;
   color: #ffffff;
+  transition: all 0.5s ease;
 }
 
 /*------------------------------*/
@@ -137,6 +151,7 @@ body{
   border-style: none;
   padding: 16px 25px;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .ButtonStyleAlternate{
@@ -148,4 +163,5 @@ body{
   border-style: none;
   padding: 16px 25px;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
